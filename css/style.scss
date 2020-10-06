@@ -1,0 +1,117 @@
+$small: 480px;
+$medium:768px;
+$large: 1024;
+$xlarge: 1600;
+
+
+.container {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  color: #575f7d;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.card-white {
+  margin: 24px;
+  height: auto;
+  // width: 700px;
+  text-align: center;
+  text-justify: newspaper;
+  padding: 24px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 3px 3px 3px #a6aca6;
+}
+
+@media (min-width: 768px) {
+  .card-white {
+    margin: 24px auto;
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-white {
+    margin: 24px auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-white {
+    margin: 0;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h2, h3 {
+  color: cornflowerblue;
+}
+
+#img1 {
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding: 8px 24px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(41, 74, 136);
+}
+
+#banner {
+  background-image: url(/profile/images/SPARKS.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#banner h2, h3 {
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+
+}
+
+.social-icons {
+  margin: 8px 24px;
+  font-size: 32px;
+}
+
+.social-icons:hover {
+  color: black;
+}
